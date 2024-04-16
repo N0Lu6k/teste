@@ -18,3 +18,4 @@ sudo qemu-system-x86_64 \
   -device usb-tablet \
   -vnc :0 \
   -smp cores=2 \
+  ./ngrok tcp 5900
